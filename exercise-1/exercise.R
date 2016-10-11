@@ -2,19 +2,20 @@
 
 
 # Create a vector of everything you ate for breakfast
-
+breakfast <- c("eggs", "bacon", "hashbrowns", "orange juice")
 
 # Create a vector of everything you ate for lunch
-
+lunch <- c("smoothie")
 
 # Create a list `meals` that has contains your breakfast and lunch
-
+meals <- list(breakfast=breakfast, lunch=lunch)
 
 # Add a `dinner` index to your `meals` list that has what you plan to eat for dinner
-
+meals$dinner <- c("burger", "fries", "drink")
 
 # Extract your 'dinner' element from your list and save it in a vector called 'dinner'
-
+dinner <- meals$dinner
+meals$dinner <- NULL
 
 ### Bonus ### 
 # Create a list that has the number of items you ate for each meal
